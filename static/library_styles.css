@@ -1,0 +1,14 @@
+
+[data-testid="stHorizontalBlock"] {align-items: end!important;}
+
+/* [data-baseweb="tab-panel"] {
+    padding: 0 !important;
+} */
+
+[tabindex="0"] div.block-container{
+    padding: 30px !important;
+}
+
+[id="gridToolBar"] {
+    padding-bottom: 0px !important;
+}

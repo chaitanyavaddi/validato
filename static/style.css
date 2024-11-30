@@ -1,0 +1,252 @@
+/* Logo */
+/* Adapted from Zachary Blackwood */
+[data-testid="stSidebar"] {
+    background-image: url(https://i.imgur.com/m32clLW.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: 4px 20px;
+    background-color: #F6F6F0;
+}
+
+/* Card */
+/* Adapted from https://startbootstrap.com/theme/sb-admin-2 */
+div.st-emotion-cache-1enkjy {
+    background-color: #FFFFFF !important;
+    /* border: 1px solid #CCCCCC !important; */
+    padding: 1% 1% 1% 2% !important;
+    border-radius: 10px !important;
+    /* border-left: 1px solid #424162 !important; */
+    /* box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important; */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+
+}
+
+
+div.st-emotion-cache-4uzi61 a {
+    background-color: darkgoldenrod;
+    border-radius: 50px;
+    width: 100%;
+}
+
+/* [aria-label="dialog"] {
+    width: 1500px !important;
+} */
+
+label.css-mkogse.e16fv1kl2 {
+color: #424162 !important;
+font-weight: 700 !important;
+text-transform: uppercase !important;
+}
+
+/* Move block container higher */
+div.block-container.css-18e3th9.egzxvld2 {
+margin-top: -5em;
+}
+
+[data-testid="stMetricValue"] {
+    display: none !important;
+}
+
+[data-testid="stMetricDelta"] > svg {
+    display: none !important;
+}
+
+[data-testid="stMetricDelta"] div {
+    font-size: 30px !important;
+    font-weight: 600 !important;
+}
+
+/* Hide hamburger menu and footer */
+div.css-r698ls.e8zbici2 {
+display: none;
+}
+
+footer.css-ipbk5a.egzxvld4 {
+display: none;
+}
+
+footer.css-12gp8ed.eknhn3m4 {
+display: none;
+}
+
+div.vg-tooltip-element {
+display: none;
+}
+
+div [data-baseweb=select]  {
+    max-height: 300px;
+    overflow: auto;
+}
+
+div > input {
+    height: 30px;
+    color: #000000ba;
+    font-size: 12px;
+}
+
+[data-testid="stHeader"] {
+    height: 4 rem;
+}
+
+section > div.block-container{
+    padding-top: 30px;
+}
+
+/*selection box stylings*/
+div.stSelectbox [data-baseweb="select"] > div > div {
+
+    padding: 0;
+    font-size: 12px;
+}
+
+div.stSelectbox [data-baseweb="select"] > div > div > div
+{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+[data-testid="stMarkdown"] p{
+    padding-top:5px;
+}
+
+[data-baseweb="select"] > div{
+    border-radius: 5px;
+    height: 30px;
+}
+
+/*Top row controls*/
+
+/* div.row-widget [data-baseweb="select"] {
+    padding-top: 10px;
+} */
+
+div.stCheckbox {
+    padding-top: 5px;
+}
+
+
+/*dropdown font size*/
+[data-testid="stVirtualDropdown"] li {
+    font-size:14px;
+}
+
+[role="option"] {
+    
+    border-bottom: 1px #f2f2f2 solid;
+}
+
+/*sidebar nav height*/
+[data-testid="stSidebarNavItems"] {
+    padding-top: 40px;
+    padding-bottom:200px;
+    overflow: hidden; /* #remove this to enable scroll*/
+    border-bottom: 1px #d7cfcf solid;
+}
+
+[data-testid="stSidebarNavItems"]::before{
+    background-image: none !important;
+}
+
+[data-testid="stSidebarNavItems"]::after{
+    background-image: none !important;
+}
+
+[data-testid="stSidebarNavSeparator"] {
+    visibility: hidden;
+   
+}
+
+
+[data-testid="baseLinkButton-primary"] {
+    background-color: #9d2f4a;
+    border: solid 0.2em #9d2f4a;
+    border-radius: 50px;
+    width: 100%;
+    color: #ffff;
+}
+
+[data-testid="baseLinkButton-secondary"] {
+    background-color: #404064;
+    border: solid 0.2em #404064 !important;
+    border-radius: 50px;
+    width: 100%;
+    color: #ffff!important;
+
+}
+
+[data-testid="stSidebarUserContent"] [data-testid="stHorizontalBlock"] {
+    gap: 7px !important;
+}
+
+[data-testid="stSidebarNavLink"] > span {
+    margin-right: 10px;
+}
+
+
+
+/*siebar CTA buttons*/
+[data-testid="stSidebarUserContent"] [data-testid="baseButton-primary"] {
+
+    background-color: #9d2f4a;
+    border: solid 0.2em #9d2f4a;
+    border-radius: 50px;
+    width: 100%;
+    color: #ffff;
+
+}
+
+[data-testid="stSidebarUserContent"] [data-testid="baseButton-secondary"] {
+    background-color: #404064;
+    border: solid 0.2em #404064 !important;
+    border-radius: 50px;
+    width: 100%;
+    color: #ffff!important;
+   
+
+}
+
+
+#Analysis Tab disable search, download toolabr for df
+[data-testid="stElementToolbar"] {
+    display: none !important;
+}
+
+/*calendar icon*/
+
+
+/* data-baseweb="input" */
+
+[data-testid="stDateInput"] [data-baseweb="input"]:before {
+    content: url(https://i.imgur.com/pIZPHar.jpg) !important;
+    padding-top: 5px !important;
+    padding-left: 7px !important;
+}
+
+[data-testid="stDateInput-Input"] {
+    font-size: 14px;
+}
+
+/* 
+[data-baseweb="tab-list"] [aria-selected="true"] {
+    width: 20%;
+    background: #9D2F4a;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+[data-baseweb="tab-list"] [aria-selected="false"] {
+    width: 20%;
+    background: #7e6d71;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+} */
+
+
+[data-testid="StyledFullScreenButton"] {
+    display: None;
+}
+
